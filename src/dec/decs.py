@@ -4,6 +4,7 @@ def spann(fn):
         print kxc
         fn(*kxc)
         print 'decorator end'
+        print 'merge'
     return new
 @spann
 def meth1(a,b):
